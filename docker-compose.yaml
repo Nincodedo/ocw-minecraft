@@ -1,8 +1,8 @@
 version: "3.8"
 
 services:
-  mc:
-    image: itzg/minecraft-server:latest
+  ftb-oceanblock:
+    image: itzg/minecraft-server:multiarch
     ports:
     - "25565:25565"
     - "25575:25575"
@@ -20,44 +20,30 @@ services:
       OVERRIDE_SERVER_PROPERTIES: 'true'
       ICON: 'https://cdn.discordapp.com/icons/109466144993210368/a_63bcc148bca7700101d1fb6b9522d638.png'
       OVERRIDE_ICON: 'true'
-      MEMORY: '2G'
+      MEMORY: '3G'
       FUNCTION_PERMISSION_LEVEL: '4'
       SPAWN_PROTECTION: '0'
       ENABLE_AUTOPAUSE: 'true'
       MAX_TICK_TIME: "-1"
       AUTOPAUSE_TIMEOUT_EST: '30'
       AUTOPAUSE_TIMEOUT_INIT: '120'
-      TYPE: 'FABRIC'
+      TYPE: 'FTBA'
       REMOVE_OLD_MODS: 'true'
-      VERSION: '1.17.1'
+      FTB_MODPACK_ID: '91'
+      FTB_MODPACK_VERSION_ID: '2079'
     volumes:
-      - mc_server:/data
-      - mc_mods:/mods
-      - mc_mod_configs:/config
-    container_name: mc
+      - ftb_server:/data
+      - ftb_mods:/mods
+      - ftb_mod_configs:/config
+    container_name: ftb-oceanblock
     tty: true
     stdin_open: true
     labels:
-      dev.nincodedo.gameservercommander.game: "Vanilla Minecraft"
-  log-watcher:
-    build: .
-    image: ghcr.io/nincodedo/rhc-ocw:latest
-    container_name: log-watcher
-    env_file:
-      - docker.env
-    environment:
-      TZ: 'CST6CDT'
-    secrets:
-      - discord_webhook
-    volumes:
-    - mc_server:/data
-    - mc_mods:/mods
-    - mc_mod_configs:/config
-    - /var/run/docker.sock:/var/run/docker.sock
+      dev.nincodedo.gameservercommander.game: "FTB OceanBlock Minecraft"
 volumes:
-  mc_server:
-  mc_mods:
-  mc_mod_configs:
+  ftb_server:
+  ftb_mods:
+  ftb_mod_configs:
 secrets:
   discord_webhook:
     file: ./secrets/discord_webhook.txt
