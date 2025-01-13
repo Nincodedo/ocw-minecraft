@@ -9,8 +9,12 @@
           "name": "minecraft:golden_boots",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{NinReward:1}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "NinReward": 1
+                }
+              }
             },
             {
               "function": "minecraft:set_attributes",
@@ -19,7 +23,7 @@
                   "attribute": "minecraft:generic.movement_speed",
                   "name": "woosh",
                   "amount": 0.12,
-                  "operation": "multiply_total",
+                  "operation": "add_multiplied_total",
                   "id": "141b494c-0c8c-449f-8999-68d42b10945a",
                   "slot": "feet"
                 }
@@ -37,6 +41,7 @@
             {
               "function": "minecraft:set_name",
               "entity": "this",
+              "target": "item_name",
               "name": {
                 "text": "Day 1 Boots",
                 "italic": false
@@ -56,7 +61,8 @@
                 {
                   "text": "Reward from going to any OCW structure."
                 }
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
               "function": "minecraft:reference",

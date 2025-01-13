@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": "#custcompost:compostables_65",
+        "count": {
+          "min": 1
+        }
+      }
+    }
+  }
+}

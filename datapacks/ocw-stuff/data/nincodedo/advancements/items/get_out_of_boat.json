@@ -41,7 +41,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Inventory:[{id:\"minecraft:compass\",tag:{NinUnique:\"BoatCompass\"}}]}"
+              "nbt": "{Inventory:[{id:\"minecraft:compass\",components:{\"minecraft:custom_data\":{NinUnique:\"BoatCompass\"}}}]}"
             }
           }
         ]

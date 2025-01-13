@@ -15,6 +15,7 @@ trim_trailing_whitespace = false
 [{*.bash,*.sh,*.zsh}]
 indent_size = 2
 tab_width = 2
+end_of_line = lf
 
 [{*.har,*.jsb2,*.jsb3,*.json,.babelrc,.eslintrc,.stylelintrc,bowerrc,jest.config}]
 indent_size = 2

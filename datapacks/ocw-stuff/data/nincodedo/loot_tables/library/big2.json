@@ -61,8 +61,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "minecraft:diamond",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -81,8 +81,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:iron_chestplate",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -96,8 +96,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:iron_helmet",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -144,7 +144,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:uniqueitems/all"
+          "value": "nincodedo:uniqueitems/all"
         }
       ]
     }

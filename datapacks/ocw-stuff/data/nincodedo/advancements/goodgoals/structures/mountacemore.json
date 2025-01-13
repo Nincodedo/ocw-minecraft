@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:totem_of_undying"
+      "id": "minecraft:totem_of_undying"
     },
     "title": [
       {
@@ -16,7 +16,7 @@
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "nincodedo:goodgoals/structures/any",
   "criteria": {
@@ -27,7 +27,7 @@
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "nincodedo:mountacemore"
+              "structures": "nincodedo:mountacemore"
             }
           }
         ]

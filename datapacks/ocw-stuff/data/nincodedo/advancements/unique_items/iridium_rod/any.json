@@ -6,7 +6,11 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{NinUnique:\"NR\"}"
+            "predicates": {
+              "minecraft:custom_data": {
+                "nincodedo:unique_item": "NR"
+              }
+            }
           }
         ]
       }

@@ -36,7 +36,8 @@
                 {
                   "text": "bunch of books drawn on it."
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ]
         }

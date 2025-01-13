@@ -14,7 +14,7 @@ scoreboard players operation @s mined_total += @s mined_redstone
 scoreboard players operation @s mined_total += @s mined_lapis
 scoreboard players operation @s mined_total += @s mined_emerald
 
-execute store result score @s[tag=holdingcobaltpickaxe] cobalt_momentum run data get entity @s SelectedItem.tag.Enchantments[{id:"minecraft:efficiency"}].lvl
+execute store result score @s[tag=holdingcobaltpickaxe] cobalt_momentum run data get entity @s SelectedItem.components."minecraft:enchantments".levels."minecraft:efficiency"
 execute if score @s[tag=holdingcobaltpickaxe] cobalt_momentum matches ..4 if score @s mined_total matches 3.. run item modify entity @s weapon.mainhand nincodedo:multiverse/tools/increase_efficiency_by_one
 execute if score @s[tag=holdingcobaltpickaxe] cobalt_momentum matches 1 if score @s cobalt_momentum_prev < @s cobalt_momentum at @s run playsound minecraft:entity.player.levelup player @s ~ ~ ~ 0.5 1.1
 execute if score @s[tag=holdingcobaltpickaxe] cobalt_momentum matches 2 if score @s cobalt_momentum_prev < @s cobalt_momentum at @s run playsound minecraft:entity.player.levelup player @s ~ ~ ~ 0.5 1.2

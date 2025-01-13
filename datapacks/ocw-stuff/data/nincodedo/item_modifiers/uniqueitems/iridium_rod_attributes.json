@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.luck",
+      "name": "ExtraLucky",
+      "amount": 1,
+      "operation": "add_value",
+      "id": "ca0df48b-985f-4b72-9648-342c35e9d5b2",
+      "slot": "mainhand"
+    }
+  ]
+}

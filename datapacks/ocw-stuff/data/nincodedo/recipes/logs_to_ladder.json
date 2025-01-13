@@ -12,7 +12,7 @@
     }
   },
   "result": {
-    "item": "minecraft:ladder",
+    "id": "minecraft:ladder",
     "count": 24
   }
 }

@@ -11,8 +11,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:diamond",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -27,8 +27,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
           "name": "minecraft:iron_ingot",
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -43,8 +43,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
           "name": "minecraft:gold_ingot",
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -59,8 +59,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
           "name": "minecraft:emerald",
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -75,8 +75,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 25,
           "name": "minecraft:bone",
+          "weight": 25,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -91,8 +91,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 25,
           "name": "minecraft:rotten_flesh",
+          "weight": 25,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -107,8 +107,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
           "name": "minecraft:book",
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:enchant_randomly"
@@ -127,8 +127,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:bone",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -143,8 +143,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:gunpowder",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -159,8 +159,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:rotten_flesh",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -175,8 +175,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:string",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",

@@ -6,91 +6,177 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "minecraft:written_book",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{title:\"HappenedExtended\",author:\"Zedar\",generation:3,resolved:1b,pages:['{\"text\":\"Long ago, the gods of OCW Minecraft blessed a select few followers with great power, charging them with overseeing their world and maintaining it. One such follower was Greg, who had become close friends with another known as Zedar, who had not been\"}','{\"text\":\"chosen for a blessing. In time, however, the gods acknowledged him, and made him an equal with Greg. However, despite their friendship, Greg was angry at this decision, thinking Zedar unworthy of the power, though he held his tongue. For a time, peace\"}','{\"text\":\"prevailed in the world. That is, until the day Greg learned that Zedar had committed an act of great evil against him. Their friendship was broken, and Greg\\'s relationship with the gods was also strained, as they did not see fit to exile Zedar for his\"}','{\"text\":\"crime. After many weeks and much pleading on Zedar\\'s part, Greg was persuaded to relent, though the friendship was far from repaired. In time, things slowly began to return to normal, but new problems were brewing. Zedar acted foolishly, all unawares,\"}','{\"text\":\"which served to anger Greg, who still held his tongue. Beyond that, Zedar had become bored with the world he was charged to take care of, and began to misuse his powers for amusement at the expense of the inhabitants, and often to the unspoken\"}','{\"text\":\"exasperation of the gods. Finally, the foolishness became too much to bear, and Greg once again swore to never associate with Zedar, or the gods, again. Still not realizing his fault, Zedar tried many times to appease his former friend, to no avail,\"}','{\"text\":\"though Greg\\'s relationship with the gods was slowly re-established. As that year was drawing to a close, Zedar, finally realizing his fault and overcome with remorse, tried one last time to beg forgiveness from Greg. For reasons unknown even to\"}','{\"text\":\"himself, Greg chose to relent, one last time. Once again, the friendship was renewed, slowly at first, but within a month it was almost as if nothing had come between the two. Zedar proved himself to have changed for the better, though he had long since\"}','{\"text\":\"left the world of Minecraft behind, as even the cruel amusements had become tiresome. Months passed, and the gods began to prepare the world for change. Greg joined them in this, but warned them that Zedar would certainly return soon,\"}','{\"text\":\"no doubt wreaking havoc as he had the previous year. As predicted, Zedar appeared a short time before the changes were to take place, but it soon became clear that he had no intention of returning to his old ways. Pleased by this, the gods chose not to\"}','{\"text\":\"strip Zedar of his power, as Greg had counseled. When the changes took place and the world renewed, Zedar was absent for a time. When he finally reappeared, he retained his power, much to Greg\\'s anger. Unaware that the gods had relented, Greg\"}','{\"text\":\"vented his rage at Zedar, claiming that he was despised by all the gods and their other followers, which had been true before, but no longer. Zedar said nothing, but simply waited. However, Greg\\'s wrath only increased. Since the gods had not acted, Greg\"}','{\"text\":\"chose to pass judgement in their stead. He stripped Zedar of his power, in addition to two others for whom he held distaste. Still Zedar made no response, except to inform the gods of what had happened. In that instant the wrath of the gods was kindled\"}','{\"text\":\"against Greg, and he was forever banished from the land. However, Zedar asked for mercy, since his previous behavior was the cause of Greg\\'s wrath. The gods relented, and Greg was allowed to return, though only with diminished power. Upon his return,\"}','{\"text\":\"however, Greg paid no heed to the mercy granted to him, only choosing to see the punishment. After exchanging heated words with the gods, Greg did the unthinkable. Certain that he would never return in any case, Greg unleashed the ancient, forbidden\"}','{\"text\":\"power known as Vulcan upon the city of OCWville, the first and only settlement in the new world. In a fury, he pulverized the marketplace, also catching the tavern and the smithy in the blast. The gods quickly retaliated, banishing Greg once more. There\"}','{\"text\":\"would be no more mercy. However, the damage had already been done. The market was a smoking ruin, and the other buildings had to be completely rebuilt. Fortunately, Greg had not had time to turn his attention to the rest of the town, so the process of\"}','{\"text\":\"rebuilding was relatively short. The friendship between Greg and Zedar, however, was broken once more, as was the link between him and the gods. It is thought to be highly unlikely for either to be repaired. The gods were adamant that the second\"}','{\"text\":\"banishment be permanent, and Greg\\'s actions did not endear him to his now-former friend. Nonetheless, reconciliation may be possible after some time, but this event, this Happened, will not soon be forgotten.\"}']}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "HappenedExtended",
+                  "author": "Zedar",
+                  "generation": 3,
+                  "pages": [
+                    "[{\"text\":\"Long ago, the gods of OCW Minecraft blessed a select few followers with great power, charging them with overseeing their world and maintaining it. One such follower was Greg, who had become close friends with another known as Zedar, who had not been\"}]",
+                    "[{\"text\":\"chosen for a blessing. In time, however, the gods acknowledged him, and made him an equal with Greg. However, despite their friendship, Greg was angry at this decision, thinking Zedar unworthy of the power, though he held his tongue. For a time, peace\"}]",
+                    "[{\"text\":\"prevailed in the world. That is, until the day Greg learned that Zedar had committed an act of great evil against him. Their friendship was broken, and Greg's relationship with the gods was also strained, as they did not see fit to exile Zedar for his\"}]",
+                    "[{\"text\":\"crime. After many weeks and much pleading on Zedar's part, Greg was persuaded to relent, though the friendship was far from repaired. In time, things slowly began to return to normal, but new problems were brewing. Zedar acted foolishly, all unawares,\"}]",
+                    "[{\"text\":\"which served to anger Greg, who still held his tongue. Beyond that, Zedar had become bored with the world he was charged to take care of, and began to misuse his powers for amusement at the expense of the inhabitants, and often to the unspoken\"}]",
+                    "[{\"text\":\"exasperation of the gods. Finally, the foolishness became too much to bear, and Greg once again swore to never associate with Zedar, or the gods, again. Still not realizing his fault, Zedar tried many times to appease his former friend, to no avail,\"}]",
+                    "[{\"text\":\"though Greg's relationship with the gods was slowly re-established. As that year was drawing to a close, Zedar, finally realizing his fault and overcome with remorse, tried one last time to beg forgiveness from Greg. For reasons unknown even to\"}]",
+                    "[{\"text\":\"himself, Greg chose to relent, one last time. Once again, the friendship was renewed, slowly at first, but within a month it was almost as if nothing had come between the two. Zedar proved himself to have changed for the better, though he had long since\"}]",
+                    "[{\"text\":\"left the world of Minecraft behind, as even the cruel amusements had become tiresome. Months passed, and the gods began to prepare the world for change. Greg joined them in this, but warned them that Zedar would certainly return soon,\"}]",
+                    "[{\"text\":\"no doubt wreaking havoc as he had the previous year. As predicted, Zedar appeared a short time before the changes were to take place, but it soon became clear that he had no intention of returning to his old ways. Pleased by this, the gods chose not to\"}]",
+                    "[{\"text\":\"strip Zedar of his power, as Greg had counseled. When the changes took place and the world renewed, Zedar was absent for a time. When he finally reappeared, he retained his power, much to Greg's anger. Unaware that the gods had relented, Greg\"}]",
+                    "[{\"text\":\"vented his rage at Zedar, claiming that he was despised by all the gods and their other followers, which had been true before, but no longer. Zedar said nothing, but simply waited. However, Greg's wrath only increased. Since the gods had not acted, Greg\"}]",
+                    "[{\"text\":\"chose to pass judgement in their stead. He stripped Zedar of his power, in addition to two others for whom he held distaste. Still Zedar made no response, except to inform the gods of what had happened. In that instant the wrath of the gods was kindled\"}]",
+                    "[{\"text\":\"against Greg, and he was forever banished from the land. However, Zedar asked for mercy, since his previous behavior was the cause of Greg's wrath. The gods relented, and Greg was allowed to return, though only with diminished power. Upon his return,\"}]",
+                    "[{\"text\":\"however, Greg paid no heed to the mercy granted to him, only choosing to see the punishment. After exchanging heated words with the gods, Greg did the unthinkable. Certain that he would never return in any case, Greg unleashed the ancient, forbidden\"}]",
+                    "[{\"text\":\"power known as Vulcan upon the city of OCWville, the first and only settlement in the new world. In a fury, he pulverized the marketplace, also catching the tavern and the smithy in the blast. The gods quickly retaliated, banishing Greg once more. There\"}]",
+                    "[{\"text\":\"would be no more mercy. However, the damage had already been done. The market was a smoking ruin, and the other buildings had to be completely rebuilt. Fortunately, Greg had not had time to turn his attention to the rest of the town, so the process of\"}]",
+                    "[{\"text\":\"rebuilding was relatively short. The friendship between Greg and Zedar, however, was broken once more, as was the link between him and the gods. It is thought to be highly unlikely for either to be repaired. The gods were adamant that the second\"}]",
+                    "[{\"text\":\"banishment be permanent, and Greg's actions did not endear him to his now-former friend. Nonetheless, reconciliation may be possible after some time, but this event, this Happened, will not soon be forgotten.\"}]"
+                  ],
+                  "resolved": true
+                }
+              }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "minecraft:written_book",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{title:\"Caving 101\",author:\"Ace Jon\",generation:3,resolved:1b,pages:['{\"text\":\"When you\\'re in a cave, put torches on the left so you and future spelunkers don\\'t get lost! Duh.\"}']}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Caving 101",
+                  "author": "Ace Jon",
+                  "generation": 3,
+                  "pages": [
+                    "[{\"text\":\"When you're in a cave, put torches on the left so you and future spelunkers don't get lost! Duh.\"}]"
+                  ],
+                  "resolved": true
+                }
+              }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "minecraft:written_book",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{title:\"Lost Knowledge Vol 1\",author:\"???\",generation:3,resolved:1b,pages:['[{\"text\":\"Hidden Recipes\n\"},{\"text\":\"| p | p | p |\n| p | p | p |\n| r | p | r |\n\"},{\"text\":\"\np = Pink Woll\nr = Red Woll\n\nI think that blue fellow would like one of these...\"}]']}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Lost Knowledge Vol 1",
+                  "author": "???",
+                  "generation": 3,
+                  "pages": [
+                    "[{\"text\":\"Hidden Recipes\\n\"},{\"text\":\"| p | p | p |\\n| p | p | p |\\n| r | p | r |\\n\"},{\"text\":\"\\np = Pink Woll\\nr = Red Woll\\n\\nI think that blue fellow would like one of these...\"}]"
+                  ],
+                  "resolved": true
+                }
+              }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "minecraft:written_book",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{title:\"Forbidden Wing\",author:\"Zedar\",generation:3,resolved:1b,pages:['{\"text\":\"It is a little-known fact that the library you now stand in is not the first library to exist in this location.\nBefore the arrival of the OCWers, when Skyfort Mishrak was still a mighty stronghold, a great library, perhaps ten times the size of the\"}','{\"text\":\"present structure, stood here. Its vast wings contained the sum of all the knowledge of the ancient civilizations. Unfortunately, the surrounding earth proved to be unstable, and the building was demolished beyond any hope of repair, with only a small\"}','{\"text\":\"section escaping unscathed, forming\nthe library as we know it today.\nYet rumors persist of another surviving section, known as The Forbidden Wing. It is said that this dark wing was hidden in the deepest depths of the ancient library, filled with \"}','{\"text\":\"knowledge of the oldest magic. The wing housed many powerful relics and thousands of tomes, waiting to give up their secrets to those with a lust for power and the skill to bend the magic to their will.\nHowever, it must be stated that the existence of The\"}','{\"text\":\"Forbidden Wing, much less its survival, is still only a rumor at this point. However, if it is still intact, it may not be far from the library.\nTo those who would seek it out, take caution. Having been buried in darkness for so long, it would no doubt be\"}','{\"text\":\"crawling with foul creatures. For those brave enough to face the danger, however, The Forbidden Wing, if it exists, may prove to be a great source of knowledge, and perhaps even greater treasure.\"}']}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Forbidden Wing",
+                  "author": "Zedar",
+                  "generation": 3,
+                  "pages": [
+                    "[{\"text\":\"It is a little-known fact that the library you now stand in is not the first library to exist in this location.\\nBefore the arrival of the OCWers, when Skyfort Mishrak was still a mighty stronghold, a great library, perhaps ten times the size of the\"}]",
+                    "[{\"text\":\"present structure, stood here. Its vast wings contained the sum of all the knowledge of the ancient civilizations. Unfortunately, the surrounding earth proved to be unstable, and the building was demolished beyond any hope of repair, with only a small\"}]",
+                    "[{\"text\":\"section escaping unscathed, forming\\nthe library as we know it today.\\nYet rumors persist of another surviving section, known as The Forbidden Wing. It is said that this dark wing was hidden in the deepest depths of the ancient library, filled with \"}]",
+                    "[{\"text\":\"knowledge of the oldest magic. The wing housed many powerful relics and thousands of tomes, waiting to give up their secrets to those with a lust for power and the skill to bend the magic to their will.\\nHowever, it must be stated that the existence of The\"}]",
+                    "[{\"text\":\"Forbidden Wing, much less its survival, is still only a rumor at this point. However, if it is still intact, it may not be far from the library.\\nTo those who would seek it out, take caution. Having been buried in darkness for so long, it would no doubt be\"}]",
+                    "[{\"text\":\"crawling with foul creatures. For those brave enough to face the danger, however, The Forbidden Wing, if it exists, may prove to be a great source of knowledge, and perhaps even greater treasure.\"}]"
+                  ],
+                  "resolved": true
+                }
+              }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "minecraft:written_book",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{title:\"The Power of The Forbidden Wing\",author:\"???\",generation:2,resolved:1b,pages:['{\"text\":\"The Forbidden Wing of the library had long been ignored by the OCWers. They were off to different worlds and adventures. However, the dark magic in that wing of the library had never been defeated. In fact it was growing. Expanding.\"}','{\"text\":\"The Forbidden Wing expanded out in all directions, attempting to reclaim its former glory, restore its power, and get revenge on the OCWers that abandoned it.\"}','[{\"text\":\"Map to The Forbidden Wing\n\n\n\"},{\"text\":\"(Tear out the map? Click here)\",\"italic\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function nincodedo:quests/librarymap\"}}]']}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "The Power of The Forbidden Wing",
+                  "author": "???",
+                  "generation": 2,
+                  "pages": [
+                    "[{\"text\":\"The Forbidden Wing of the library had long been ignored by the OCWers. They were off to different worlds and adventures. However, the dark magic in that wing of the library had never been defeated. In fact it was growing. Expanding.\"}]",
+                    "[{\"text\":\"The Forbidden Wing expanded out in all directions, attempting to reclaim its former glory, restore its power, and get revenge on the OCWers that abandoned it.\"}]",
+                    "[[{\"text\":\"Map to The Forbidden Wing\\n\\n\\n\"},{\"text\":\"(Tear out the map? Click here)\",\"italic\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function nincodedo:quests/librarymap\"}}]]"
+                  ],
+                  "resolved": true
+                }
+              }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "minecraft:written_book",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{title:\"Lost Knowledge Vol 4\",author:\"The Inventor\",generation:1,resolved:1b,pages:['[{\"text\":\"My latest creation! The \\\\\"\"},{\"text\":\"Find The Boat You Just Got Out Of 5000\",\"italic\":true},{\"text\":\".\\\\\" The name might need some work. I have a Name Guy, they\\'ll come up with something good. They always do. Anyways, you just gotta surround a compass with boats in a crafting table and BAM. \",\"italic\":false}]','[{\"text\":\"Find The Boat You Just Got Out Of 5000\",\"italic\":true},{\"text\":\". \",\"italic\":false},{\"italic\":false,\"text\":\"Name Guy is on it. It\\'ll be great.\"}]']}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Lost Knowledge Vol 4",
+                  "author": "The Inventor",
+                  "generation": 1,
+                  "pages": [
+                    "[{\"text\":\"My latest creation! The \\\"\"},{\"text\":\"Find The Boat You Just Got Out Of 5000\",\"italic\":true},{\"text\":\"\\\". The name might need some work. I have a Name Guy, they'll come up with something good. They always do. Anyways, you just gotta surround a compass with boats in a crafting table and BAM. \",\"italic\":false}]",
+                    "[{\"text\":\"Find The Boat You Just Got Out Of 5000\",\"italic\":true},{\"text\":\"Name Guy is on it. It'll be great.\",\"italic\":false}]"
+                  ],
+                  "resolved": true
+                }
+              }
             }
           ]
         }

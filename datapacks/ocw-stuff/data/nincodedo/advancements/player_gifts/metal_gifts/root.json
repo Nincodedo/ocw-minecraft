@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:player_head",
-      "nbt": "{SkullOwner:Metal_Link}"
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "Metal_Link"
+        }
+      }
     },
     "title": "Metal_Link",
     "description": "",

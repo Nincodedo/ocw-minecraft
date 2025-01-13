@@ -7,22 +7,22 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/junk",
           "weight": 10,
-          "quality": -2,
-          "name": "minecraft:gameplay/fishing/junk"
+          "quality": -2
         },
         {
           "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/treasure",
           "weight": 5,
           "quality": 2,
-          "name": "minecraft:gameplay/fishing/treasure",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
                 "type_specific": {
-                  "type": "fishing_hook",
+                  "type": "minecraft:fishing_hook",
                   "in_open_water": true
                 }
               }
@@ -31,20 +31,21 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/fish",
           "weight": 85,
-          "quality": -1,
-          "name": "minecraft:gameplay/fishing/fish"
+          "quality": -1
         }
       ]
     },
     {
       "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/junk",
           "weight": 10,
           "quality": -3,
-          "name": "minecraft:gameplay/fishing/junk",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -54,16 +55,16 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/treasure",
           "weight": 5,
-          "quality": 4,
-          "name": "minecraft:gameplay/fishing/treasure",
+          "quality": 2,
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
                 "type_specific": {
-                  "type": "fishing_hook",
+                  "type": "minecraft:fishing_hook",
                   "in_open_water": true
                 }
               }
@@ -72,9 +73,9 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/fish",
           "weight": 85,
-          "quality": -2,
-          "name": "minecraft:gameplay/fishing/fish",
+          "quality": -1,
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -87,7 +88,12 @@
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-            "nbt": "{NinUnique:\"NR\",NinPowered:1}"
+            "components": {
+              "minecraft:custom_data": {
+                "nincodedo:unique_item":"NR",
+                "nincodedo:powered":1
+              }
+            }
           }
         }
       ]

@@ -6,16 +6,29 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 4,
           "name": "minecraft:written_book",
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"text\":\"OCW RHC FAQ \",\"italic\":false},{\"text\":\"v2\",\"color\":\"blue\"}]',Lore:['{\"text\":\"Last Updated: June 7th 2023\"}']},title:\"OCW RHC FAQ v2\",author:\"Nincodedo\",generation:1,resolved:1b,pages:['{\"text\":\"How do I get a free banner for mapping a specific location?\\\\n\\\\nUse the command `/trigger bannerplz`\"}','[{\"text\":\"What kind of structures can I get free banners for?\\\\nVillage: \"},{\"text\":\"Yellow\",\"color\":\"yellow\"},{\"text\":\"\\\\nRuined Portal: \"},{\"text\":\"Magenta\",\"color\":\"light_purple\"},{\"text\":\"\\\\nStronghold: \"},{\"text\":\"Green\",\"color\":\"dark_green\"},{\"text\":\"\\\\nSpawner: \"},{\"text\":\"Orange\",\"color\":\"#FFAA00\"},{\"text\":\"\\\\nAmethyst Geode: \"},{\"text\":\"Purple\",\"color\":\"dark_purple\"},{\"text\":\"\\\\nDesert Pyramid: \"},{\"text\":\"Cyan\",\"color\":\"aqua\"},{\"text\":\"\\\\nWoodland Mansion: \"},{\"text\":\"Brown\",\"color\":\"#964B00\"},{\"text\":\"\\\\n[NEW]\",\"bold\":true},{\"text\":\"OCW Structure: \"},{\"text\":\"Light Blue\",\"color\":\"#00829F\"}]','[{\"text\":\"Special non-Vanilla Game Mechanics\",\"underlined\":true},{\"text\":\"\\\\nBone Meal on Sugar Cane\",\"bold\":true,\"underlined\":false},{\"text\":\"\\\\nPlayers can use bone meal on sugar cane to make it grow. Dispensers filled with bone meal can grow sugar cane too.\",\"underlined\":false}]','[{\"text\":\"Poisonous Potatoes in Composter\",\"bold\":true},{\"text\":\"\\\\nPlayers can put poisonous potatoes into composters. Hoppers work too.\",\"bold\":false}]']}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "OCW RHC FAQ v2",
+                  "author": "Nincodedo",
+                  "generation": 1,
+                  "pages": [
+                    "[{\"text\":\"How do I get a free banner for mapping a specific location?\\n\\nUse the command `/trigger bannerplz`\"}]",
+                    "[{\"text\":\"What kind of structures can I get free banners for?\\nVillage: \",\"extra\":[{\"text\":\"Yellow\",\"color\":\"yellow\"}]},{\"text\":\"\\nRuined Portal: \",\"extra\":[{\"text\":\"Magenta\",\"color\":\"light_purple\"}]},{\"text\":\"\\nStronghold: \",\"extra\":[{\"text\":\"Green\",\"color\":\"dark_green\"}]},{\"text\":\"\\nSpawner: \",\"extra\":[{\"text\":\"Orange\",\"color\":\"#FFAA00\"}]},{\"text\":\"\\nAmethyst Geode: \",\"extra\":[{\"text\":\"Purple\",\"color\":\"dark_purple\"}]},{\"text\":\"\\nDesert Pyramid: \",\"extra\":[{\"text\":\"Cyan\",\"color\":\"aqua\"}]},{\"text\":\"\\nWoodland Mansion: \",\"extra\":[{\"text\":\"Brown\",\"color\":\"#964B00\"}]},{\"text\":\"\\nOCW Structure: \",\"extra\":[{\"text\":\"Light Blue\",\"color\":\"#00829F\"}]}]",
+                    "[{\"text\":\"Special non-Vanilla Game Mechanics\",\"underlined\":true},{\"text\":\"\\n\\nBone Meal on Sugar Cane\",\"bold\":true,\"underlined\":false},{\"text\":\"\\nPlayers can use bone meal on sugar cane to make it grow. Dispensers filled with bone meal can also grow sugar cane.\",\"underlined\":false}]",
+                    "[{\"text\":\"Special non-Vanilla Game Mechanics\",\"underlined\":true},{\"text\":\"\\n\\nPoisonous Potatoes in Composter\",\"bold\":true,\"underlined\":false},{\"text\":\"\\nPlayers can put poisonous potatoes into composters. Hoppers work too.\",\"underlined\":false}]"
+                  ],
+                  "resolved": true
+                }
+              }
             }
           ]
         },
@@ -28,8 +41,17 @@
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"text\":\"OCW RHC FAQ: \",\"italic\":false},{\"text\":\"Special Edition\",\"color\":\"gold\",\"bold\":true,\"italic\":true}]'},title:\"OCW RHC FAQ: Special Edition\",author:\"Nincodedo\",generation:1,resolved:1b,pages:['[{\"text\":\"How do I become successful in this game?\\\\n\\\\n\"},{\"text\":\"Don\\'t die\",\"bold\":true}]']}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "OCW RHC FAQ: Special Edition",
+                  "author": "Nincodedo",
+                  "generation": 1,
+                  "pages": [
+                    "[{\"text\":\"How do I become successful in this game?\\n\\n\"},{\"text\":\"Don't die\",\"bold\":true}]"
+                  ]
+                }
+              }
             }
           ]
         }

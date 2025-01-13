@@ -15,8 +15,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:diamond",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -31,8 +31,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:iron_ingot",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -47,8 +47,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
           "name": "minecraft:gold_ingot",
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -63,8 +63,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
           "name": "minecraft:bamboo",
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -79,8 +79,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:emerald",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -95,8 +95,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
           "name": "minecraft:bone",
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -111,8 +111,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 16,
           "name": "minecraft:apple",
+          "weight": 16,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -127,8 +127,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:saddle"
+          "name": "minecraft:saddle",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -144,8 +144,8 @@
         },
         {
           "type": "minecraft:item",
-          "quality": 10,
           "name": "minecraft:book",
+          "quality": 10,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -161,7 +161,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:ocw/day_based"
+          "value": "nincodedo:ocw/day_based"
         }
       ]
     }

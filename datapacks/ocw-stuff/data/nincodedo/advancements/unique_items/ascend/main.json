@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:carrot_on_a_stick",
-      "nbt": "{CustomModelData:1}"
+      "id": "minecraft:carrot_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 1
+      }
     },
     "title": "Ascend",
     "description": "My Zelda Needs Me",
@@ -18,7 +20,11 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{NinUnique:\"Ascend\"}"
+            "predicates": {
+              "minecraft:custom_data": {
+                "nincodedo:unique_item": "Ascend"
+              }
+            }
           }
         ]
       }

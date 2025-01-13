@@ -11,8 +11,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:diamond",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -27,8 +27,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
           "name": "minecraft:iron_ingot",
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -43,8 +43,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
           "name": "minecraft:gold_ingot",
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -59,8 +59,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
           "name": "minecraft:emerald",
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -75,8 +75,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
           "name": "minecraft:book",
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:enchant_randomly"
@@ -85,13 +85,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
-          "name": "minecraft:golden_apple"
+          "name": "minecraft:golden_apple",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:enchanted_golden_apple"
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 2
         },
         {
           "type": "minecraft:empty",
@@ -104,7 +104,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:uniqueitems/torchbow"
+          "value": "nincodedo:uniqueitems/torchbow"
         }
       ]
     },

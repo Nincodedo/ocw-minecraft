@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 FROM debian:stable-slim AS build
 
-ARG bedrock_bone_meal_version=1.2.1+1.20
+ARG bedrock_bone_meal_version=1.2.2+1.21.3
 
 RUN apt-get update \
   && apt-get install zip wget ca-certificates -y --no-install-recommends \
@@ -9,10 +9,7 @@ RUN apt-get update \
   && rm -rf /var/lib/apt/lists/*
 
 COPY datapacks /datapacks
-RUN cd /datapacks/ocw-stuff \
-  && zip -r ocw-stuff.zip . \
-  && mv ocw-stuff.zip /datapacks \
-  && cd /datapacks/who-did-this \
+RUN cd /datapacks/who-did-this \
   && zip -r who-did-this.zip . \
   && mv who-did-this.zip /datapacks \
   && cd /datapacks/custom-compostables \
@@ -23,9 +20,10 @@ RUN wget -O /datapacks/bedrock-bone-meal.zip https://github.com/Nincodedo/mc-jav
 
 FROM itzg/minecraft-server:2025.1.0
 
-ENV MODRINTH_PROJECTS=fabric-api,cloth-config,lithium,ferrite-core,starlight,fastback,chunky,no-chat-reports,disableinsecurechattoast,inventory-sorting,jamlib,architectury-api,rightclickharvest,jade,rei,memoryleakfix,mc-server-description
+ENV MODRINTH_PROJECTS=mc-server-description,rightclickharvest,vanilla-pings
+ENV MODRINTH_DOWNLOAD_DEPENDENCIES=required
 
-ENV DATAPACKS=/datapacks/ocw-stuff.zip,/datapacks/who-did-this.zip,/datapacks/bedrock-bone-meal.zip,/datapacks/custom-compostables.zip
+ENV DATAPACKS=/datapacks/who-did-this.zip,/datapacks/bedrock-bone-meal.zip,/datapacks/custom-compostables.zip
 RUN mkdir -p /datapacks
 COPY --from=build /datapacks/*.zip /datapacks
 

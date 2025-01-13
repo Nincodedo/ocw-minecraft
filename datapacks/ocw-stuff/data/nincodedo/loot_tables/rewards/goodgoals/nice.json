@@ -9,7 +9,7 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "nincodedo:rewards/goodgoals/nice/1",
+              "value": "nincodedo:rewards/goodgoals/nice/1",
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
@@ -19,7 +19,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "nincodedo:rewards/goodgoals/nice/2",
+              "value": "nincodedo:rewards/goodgoals/nice/2",
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "nincodedo:rewards/goodgoals/nice/3",
+              "value": "nincodedo:rewards/goodgoals/nice/3",
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
@@ -39,7 +39,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "nincodedo:rewards/goodgoals/nice/4",
+              "value": "nincodedo:rewards/goodgoals/nice/4",
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
@@ -52,8 +52,12 @@
               "name": "minecraft:stone_hoe",
               "functions": [
                 {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{NinReward:1}"
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_data": {
+                      "NinReward": 1
+                    }
+                  }
                 },
                 {
                   "function": "minecraft:set_lore",
@@ -73,7 +77,8 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "mode": "replace_all"
                 },
                 {
                   "function": "minecraft:set_count",
@@ -94,7 +99,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "nincodedo:rewards/goodgoals/nice/6",
+              "value": "nincodedo:rewards/goodgoals/nice/6",
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
@@ -104,7 +109,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "nincodedo:rewards/goodgoals/nice/7",
+              "value": "nincodedo:rewards/goodgoals/nice/7",
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
@@ -114,7 +119,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "nincodedo:rewards/goodgoals/nice/8",
+              "value": "nincodedo:rewards/goodgoals/nice/8",
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
@@ -124,7 +129,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "nincodedo:rewards/goodgoals/nice/9"
+              "value": "nincodedo:rewards/goodgoals/nice/9"
             }
           ]
         }

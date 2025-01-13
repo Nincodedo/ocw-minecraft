@@ -1,0 +1,32 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:composter",
+        "state": {
+          "level": {
+            "min": "0",
+            "max": "6"
+          }
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:hopper"
+        ],
+        "nbt": "{TransferCooldown:0}",
+        "state": {
+          "facing": "down",
+          "enabled": "true"
+        }
+      }
+    }
+  }
+]

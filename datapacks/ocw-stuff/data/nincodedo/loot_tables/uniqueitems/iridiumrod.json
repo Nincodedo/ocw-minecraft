@@ -9,25 +9,26 @@
           "name": "minecraft:fishing_rod",
           "functions": [
             {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "minecraft:generic.luck",
-                  "name": "ExtraLucky",
-                  "amount": 1,
-                  "operation": "addition",
-                  "id": "ca0df48b-985f-4b72-9648-342c35e9d5b2",
-                  "slot": "mainhand"
-                }
-              ]
+              "function": "minecraft:reference",
+              "name": "nincodedo:uniqueitems/iridium_rod_attributes"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1010101,NinUnique:\"NR\",NinPowered:1,Unbreakable:1b}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 1010101,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:custom_data": {
+                  "nincodedo:unique_item": "NR",
+                  "nincodedo:powered": 1
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
               "entity": "this",
+              "target": "item_name",
               "name": {
                 "text": "Nin's Iridium Fishing Rod",
                 "color": "dark_purple",
@@ -49,7 +50,7 @@
                   "text": "Only Nin can use this."
                 }
               ],
-              "replace": true
+              "mode": "replace_all"
             },
             {
               "function": "minecraft:set_enchantments",

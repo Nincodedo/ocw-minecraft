@@ -11,8 +11,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:gold_ingot",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -27,8 +27,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
           "name": "minecraft:paper",
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",

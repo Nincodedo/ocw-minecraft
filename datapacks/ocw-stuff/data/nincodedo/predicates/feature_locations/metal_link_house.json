@@ -3,7 +3,7 @@
   "entity": "this",
   "predicate": {
     "location": {
-      "structure": "nincodedo:metal_link_house"
+      "structures": "nincodedo:metal_link_house"
     }
   }
 }

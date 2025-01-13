@@ -109,7 +109,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:uniqueitems/iridiumrod",
+          "value": "nincodedo:uniqueitems/iridiumrod",
           "conditions": [
             {
               "condition": "minecraft:value_check",

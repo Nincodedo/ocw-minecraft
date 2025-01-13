@@ -261,11 +261,11 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:ocw_map"
+          "value": "nincodedo:ocw_map"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:ocw_books"
+          "value": "nincodedo:ocw_books"
         }
       ]
     },

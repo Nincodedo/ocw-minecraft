@@ -5,7 +5,11 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{NinUnique:\"Ascend\"}"
+            "predicates": {
+              "minecraft:custom_data": {
+                "nincodedo:unique_item": "Ascend"
+              }
+            }
           }
         ]
       }

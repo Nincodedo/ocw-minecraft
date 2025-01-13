@@ -1,28 +1,23 @@
-[
-  {
-    "function": "minecraft:copy_nbt",
-    "source": "this",
-    "ops": [
-      {
-        "source": "Inventory[{tag:{NinUnique:\"NR\"}}].tag.AttributeModifiers",
-        "target": "StoredModifiers",
-        "op": "replace"
+{
+  "function": "minecraft:filtered",
+  "item_filter": {
+    "predicates": {
+      "minecraft:custom_data": {
+        "nincodedo:unique_item": "NR"
       }
-    ]
+    }
   },
-  {
-    "function": "minecraft:copy_nbt",
-    "source": "this",
-    "ops": [
-      {
-        "source": "Inventory[{tag:{NinUnique:\"NR\"}}].tag.Enchantments",
-        "target": "StoredEnchantments",
-        "op": "replace"
+  "modifier": [
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "!minecraft:attribute_modifiers": {},
+        "!minecraft:enchantments": {},
+        "minecraft:custom_data": {
+          "nincodedo:powered": 0,
+          "nincodedo:unique_item": "NR"
+        }
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_nbt",
-    "tag": "{Enchantments:[], AttributeModifiers:[], NinPowered:0}"
-  }
-]
+    }
+  ]
+}

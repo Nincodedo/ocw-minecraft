@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bell"
+      "id": "minecraft:bell"
     },
     "title": "Nice",
     "description": "Ring a bell 69 times",

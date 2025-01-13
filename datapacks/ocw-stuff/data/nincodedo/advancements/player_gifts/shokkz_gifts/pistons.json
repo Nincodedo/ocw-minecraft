@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:piston"
+      "id": "minecraft:piston"
     },
     "title": "Push push",
     "description": "Sticky? Not sticky? Either is fine",

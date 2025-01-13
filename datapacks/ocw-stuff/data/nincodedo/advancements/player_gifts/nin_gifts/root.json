@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:player_head",
-      "nbt": "{SkullOwner:Nincodedo}"
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "Nincodedo"
+        }
+      }
     },
     "title": "Nincodedo",
     "description": "",

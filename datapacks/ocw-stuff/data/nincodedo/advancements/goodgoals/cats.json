@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cod"
+      "id": "minecraft:cod"
     },
     "title": "Cats Cats Cats Cats",
     "description": "Cat + Cat = Cat",

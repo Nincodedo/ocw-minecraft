@@ -30,8 +30,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:compass",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -42,8 +42,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:sculk_catalyst",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -58,13 +58,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:name_tag"
+          "name": "minecraft:name_tag",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:diamond_hoe",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -93,8 +93,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:lead",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -105,8 +105,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:diamond_horse_armor",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -117,8 +117,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:saddle",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -129,18 +129,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:music_disc_13"
+          "name": "minecraft:music_disc_13",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:music_disc_cat"
+          "name": "minecraft:music_disc_cat",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:diamond_leggings",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -155,8 +155,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:book",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
@@ -168,8 +168,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:sculk",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -184,8 +184,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:sculk_sensor",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -200,8 +200,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:candle",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -216,8 +216,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:amethyst_shard",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -232,8 +232,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:experience_bottle",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -248,8 +248,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:glow_berries",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -264,8 +264,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:iron_leggings",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -280,24 +280,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
           "name": "minecraft:echo_shard",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 4,
-          "name": "minecraft:disc_fragment_5",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -312,8 +296,24 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "name": "minecraft:disc_fragment_5",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:potion",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -332,8 +332,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:book",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:enchant_randomly"
@@ -342,8 +342,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:book",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -358,24 +358,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:bone",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 15
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:soul_torch",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -390,8 +374,24 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 7,
+          "name": "minecraft:soul_torch",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:coal",
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -416,8 +416,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:ward_armor_trim_smithing_template"
+          "name": "minecraft:ward_armor_trim_smithing_template",
+          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -433,7 +433,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:uniqueitems/ascend"
+          "value": "nincodedo:uniqueitems/ascend"
         }
       ]
     }

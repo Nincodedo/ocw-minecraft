@@ -1,28 +1,48 @@
 [
   {
-    "function": "minecraft:copy_nbt",
-    "source": "this",
-    "ops": [
+    "function": "minecraft:filtered",
+    "item_filter": {
+      "predicates": {
+        "minecraft:custom_data": {
+          "nincodedo:unique_item": "NR"
+        }
+      }
+    },
+    "modifier": [
       {
-        "source": "Inventory[{tag:{NinUnique:\"NR\"}}].tag.StoredModifiers",
-        "target": "AttributeModifiers",
-        "op": "replace"
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:enchantments": {}
+        }
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "nincodedo:uniqueitems/iridium_rod_attributes"
+      },
+      {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:lure": {
+            "type": "minecraft:storage",
+            "storage": "nincodedo:storage",
+            "path": "iridium_rod.components.\"minecraft:enchantments\".levels.\"minecraft:lure\""
+          },
+          "minecraft:luck_of_the_sea": {
+            "type": "minecraft:storage",
+            "storage": "nincodedo:storage",
+            "path": "iridium_rod.components.\"minecraft:enchantments\".levels.\"minecraft:luck_of_the_sea\""
+          }
+        }
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:custom_data": {
+            "nincodedo:unique_item": "NR",
+            "nincodedo:powered": 1
+          }
+        }
       }
     ]
-  },
-  {
-    "function": "minecraft:copy_nbt",
-    "source": "this",
-    "ops": [
-      {
-        "source": "Inventory[{tag:{NinUnique:\"NR\"}}].tag.StoredEnchantments",
-        "target": "Enchantments",
-        "op": "replace"
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_nbt",
-    "tag": "{NinPowered:1}"
   }
 ]

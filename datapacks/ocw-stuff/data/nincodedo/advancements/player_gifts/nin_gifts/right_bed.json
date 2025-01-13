@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:blue_bed"
+      "id": "minecraft:blue_bed"
     },
     "title": "This bed is juuuuust riiiiiiiiight",
     "description": "Nincodedo appreciates your gift of sleepiness",

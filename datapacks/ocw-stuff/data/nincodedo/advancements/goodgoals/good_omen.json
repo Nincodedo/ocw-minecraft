@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:chest"
+      "id": "minecraft:chest"
     },
     "title": "This is a Good Omen",
     "description": "Whatever it is, its good",
@@ -16,7 +16,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "minecraft:buried_treasure"
+            "structures": "minecraft:buried_treasure"
           }
         }
       }
@@ -26,7 +26,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "minecraft:mineshaft"
+            "structures": "#minecraft:mineshaft"
           }
         }
       }

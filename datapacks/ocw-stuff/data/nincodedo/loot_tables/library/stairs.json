@@ -16,7 +16,8 @@
                 {
                   "text": "Bro, u lost?"
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ]
         },
@@ -31,7 +32,8 @@
                 {
                   "text": "Bro, u lost?"
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ]
         }

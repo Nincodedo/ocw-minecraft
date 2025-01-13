@@ -16,31 +16,31 @@
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "structure": "minecraft:village_desert"
+                        "structures": "minecraft:village_desert"
                       }
                     },
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "structure": "minecraft:village_plains"
+                        "structures": "minecraft:village_plains"
                       }
                     },
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "structure": "minecraft:village_savanna"
+                        "structures": "minecraft:village_savanna"
                       }
                     },
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "structure": "minecraft:village_snowy"
+                        "structures": "minecraft:village_snowy"
                       }
                     },
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "structure": "minecraft:village_taiga"
+                        "structures": "minecraft:village_taiga"
                       }
                     }
                   ]
@@ -57,43 +57,43 @@
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "structure": "minecraft:ruined_portal"
+                        "structures": "minecraft:ruined_portal"
                       }
                     },
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "structure": "minecraft:ruined_portal_desert"
+                        "structures": "minecraft:ruined_portal_desert"
                       }
                     },
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "structure": "minecraft:ruined_portal_jungle"
+                        "structures": "minecraft:ruined_portal_jungle"
                       }
                     },
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "structure": "minecraft:ruined_portal_mountain"
+                        "structures": "minecraft:ruined_portal_mountain"
                       }
                     },
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "structure": "minecraft:ruined_portal_nether"
+                        "structures": "minecraft:ruined_portal_nether"
                       }
                     },
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "structure": "minecraft:ruined_portal_ocean"
+                        "structures": "minecraft:ruined_portal_ocean"
                       }
                     },
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "structure": "minecraft:ruined_portal_swamp"
+                        "structures": "minecraft:ruined_portal_swamp"
                       }
                     }
                   ]
@@ -107,7 +107,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "structure": "minecraft:stronghold"
+                    "structures": "minecraft:stronghold"
                   }
                 }
               ]
@@ -156,7 +156,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "structure": "minecraft:desert_pyramid"
+                    "structures": "minecraft:desert_pyramid"
                   }
                 }
               ]
@@ -168,7 +168,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "structure": "minecraft:mansion"
+                    "structures": "minecraft:mansion"
                   }
                 }
               ]
@@ -190,7 +190,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "structure": "minecraft:ancient_city"
+                    "structures": "minecraft:ancient_city"
                   }
                 }
               ]

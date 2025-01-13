@@ -9,8 +9,12 @@
           "name": "minecraft:clay_ball",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{NinReward:1}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "NinReward": 1
+                }
+              }
             },
             {
               "function": "minecraft:set_lore",
@@ -30,7 +34,8 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
               "function": "minecraft:set_count",
@@ -48,8 +53,12 @@
           "name": "minecraft:clay_ball",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{NinReward:1}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "NinReward": 1
+                }
+              }
             },
             {
               "function": "minecraft:set_lore",
@@ -69,7 +78,8 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
               "function": "minecraft:set_count",

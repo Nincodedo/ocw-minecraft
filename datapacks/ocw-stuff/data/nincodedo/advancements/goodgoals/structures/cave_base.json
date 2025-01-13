@@ -1,14 +1,14 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:zombie_head"
+      "id": "minecraft:zombie_head"
     },
     "title": "The Cave Base",
     "description": "Undead and Nin's base from OCW Minecraft 1.2's alt survivor world (2012)",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "nincodedo:goodgoals/structures/any",
   "criteria": {
@@ -19,7 +19,7 @@
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "nincodedo:cave_base_roof"
+              "structures": "nincodedo:cave_base_roof"
             }
           }
         ]

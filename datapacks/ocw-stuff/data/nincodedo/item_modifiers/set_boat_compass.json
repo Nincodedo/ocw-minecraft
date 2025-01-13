@@ -1,68 +1,12 @@
 [
   {
-    "function": "minecraft:copy_nbt",
-    "source": "this",
-    "ops": [
-      {
-        "source": "Pos[0]",
-        "target": "LodestonePos.X",
-        "op": "replace"
-      },
-      {
-        "source": "Pos[1]",
-        "target": "LodestonePos.Y",
-        "op": "replace"
-      },
-      {
-        "source": "Pos[2]",
-        "target": "LodestonePos.Z",
-        "op": "replace"
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_nbt",
-    "tag": "{LodestoneTracked:0b}"
-  },
-  {
-    "function": "minecraft:set_nbt",
-    "tag": "{LodestoneDimension:\"minecraft:overworld\"}",
-    "conditions": [
-      {
-        "condition": "minecraft:location_check",
-        "predicate": {
-          "dimension": "minecraft:overworld"
-        }
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_nbt",
-    "tag": "{LodestoneDimension:\"minecraft:the_nether\"}",
-    "conditions": [
-      {
-        "condition": "minecraft:location_check",
-        "predicate": {
-          "dimension": "minecraft:the_nether"
-        }
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_nbt",
-    "tag": "{LodestoneDimension:\"minecraft:the_end\"}",
-    "conditions": [
-      {
-        "condition": "minecraft:location_check",
-        "predicate": {
-          "dimension": "minecraft:the_end"
-        }
-      }
-    ]
+    "function": "minecraft:set_custom_data",
+    "tag": "{NinUnique: \"BoatCompass\"}"
   },
   {
     "function": "minecraft:set_name",
     "entity": "this",
+    "target": "item_name",
     "name": {
       "text": "Your Boat Compass",
       "italic": false
@@ -81,6 +25,6 @@
         "color": "gray"
       }
     ],
-    "replace": true
+    "mode": "replace_all"
   }
 ]

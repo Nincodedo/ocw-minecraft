@@ -5,14 +5,14 @@
       "rolls": {
         "type": "minecraft:uniform",
         "min": 1,
-        "max": 1
+        "max": 2
       },
       "bonus_rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:iron_pickaxe"
+          "name": "minecraft:iron_pickaxe",
+          "weight": 2
         },
         {
           "type": "minecraft:item",

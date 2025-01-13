@@ -9,8 +9,12 @@
           "name": "minecraft:golden_pickaxe",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{NinReward:1}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "NinReward": 1
+                }
+              }
             },
             {
               "function": "minecraft:enchant_with_levels",
@@ -24,6 +28,7 @@
             {
               "function": "minecraft:set_name",
               "entity": "this",
+              "target": "item_name",
               "name": {
                 "text": "Day 1 Pickaxe",
                 "italic": false
@@ -51,7 +56,8 @@
                 {
                   "text": "Reward from getting an iron pickaxe."
                 }
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
               "function": "minecraft:reference",

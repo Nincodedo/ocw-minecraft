@@ -11,8 +11,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:map",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -27,8 +27,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
           "name": "minecraft:paper",
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -43,13 +43,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:compass"
+          "name": "minecraft:compass",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
           "name": "minecraft:bread",
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -64,8 +64,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:stick",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -88,7 +88,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:ocw_map"
+          "value": "nincodedo:ocw_map"
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:purple_bed"
+      "id": "minecraft:purple_bed"
     },
     "title": "This bed is juuuuust riiiiiiiiight",
     "description": "Undead appreciates your gift of sleepiness",

@@ -15,7 +15,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "structure": "nincodedo:library_hidden_wing"
+                    "structures": "nincodedo:library_hidden_wing"
                   }
                 }
               ]
@@ -27,14 +27,11 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "enchantments": [
-                      {
-                        "enchantment": "minecraft:silk_touch",
-                        "levels": {
-                          "min": 1
-                        }
+                    "components": {
+                      "minecraft:enchantments": {
+                        "minecraft:silk_touch": 1
                       }
-                    ]
+                    }
                   }
                 }
               ]

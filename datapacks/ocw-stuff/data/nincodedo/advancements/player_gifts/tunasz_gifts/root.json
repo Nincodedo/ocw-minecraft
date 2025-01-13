@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:player_head",
-      "nbt": "{SkullOwner:Tunasz_}"
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "Tunasz_"
+        }
+      }
     },
     "title": "Tunasz_",
     "description": "",

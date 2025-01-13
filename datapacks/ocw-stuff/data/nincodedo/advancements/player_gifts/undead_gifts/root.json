@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:player_head",
-      "nbt": "{SkullOwner:Undead_Zeratul}"
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "Undead_Zeratul"
+        }
+      }
     },
     "title": "Undead_Zeratul",
     "description": "",

@@ -1,14 +1,14 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:campfire"
+      "id": "minecraft:campfire"
     },
     "title": "A cozy cottage that's never ever burned down",
     "description": "Undead's Cottage from OCW Minecraft 1.2 Alpha (2010)",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "nincodedo:goodgoals/structures/any",
   "criteria": {
@@ -19,7 +19,7 @@
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "nincodedo:undeadcottage"
+              "structures": "nincodedo:undeadcottage"
             }
           }
         ]

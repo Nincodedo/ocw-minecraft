@@ -9,8 +9,12 @@
           "name": "minecraft:golden_hoe",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{NinReward:1}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "NinReward": 1
+                }
+              }
             },
             {
               "function": "minecraft:enchant_with_levels",
@@ -24,6 +28,7 @@
             {
               "function": "minecraft:set_name",
               "entity": "this",
+              "target": "item_name",
               "name": {
                 "text": "Day 1 Hoe",
                 "italic": false
@@ -43,7 +48,8 @@
                 {
                   "text": "Reward from planting a seed."
                 }
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
               "function": "minecraft:reference",

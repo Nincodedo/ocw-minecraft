@@ -18,7 +18,17 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{SelectedItem:{tag:{NinUnique:\"Ascend\",NinPowered:1}},OnGround:1b}"
+              "nbt": "{OnGround:1b}",
+              "equipment": {
+                "mainhand": {
+                  "components": {
+                    "minecraft:custom_data": {
+                      "nincodedo:unique_item": "Ascend",
+                      "nincodedo:powered": 1
+                    }
+                  }
+                }
+              }
             }
           }
         ]

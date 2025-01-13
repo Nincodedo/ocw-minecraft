@@ -9,8 +9,12 @@
           "name": "minecraft:iron_pickaxe",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{NinReward:1}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "NinReward": 1
+                }
+              }
             },
             {
               "function": "minecraft:set_lore",
@@ -19,7 +23,8 @@
                 {
                   "text": "Reward from getting diamonds."
                 }
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
               "function": "minecraft:reference",

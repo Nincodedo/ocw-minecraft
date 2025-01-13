@@ -8,12 +8,23 @@
           "name": "minecraft:carrot_on_a_stick",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{NinPowered:1,NinUnique:\"Ascend\",Enchantments:[{}],CustomModelData:1,Unbreakable:1b}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:custom_model_data": 1,
+                "minecraft:custom_data": {
+                  "nincodedo:powered": 1,
+                  "nincodedo:unique_item": "Ascend"
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
               "entity": "this",
+              "target": "item_name",
               "name": {
                 "text": "Ascend",
                 "color": "green",
@@ -39,11 +50,12 @@
                   "color": "gray",
                   "extra": [
                     {
-                      "text": ": Initially Activate Ascend"
+                      "text": ": Activate Ascend"
                     }
                   ]
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ]
         }

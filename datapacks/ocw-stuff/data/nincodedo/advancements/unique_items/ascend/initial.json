@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:carrot_on_a_stick",
-      "nbt": "{CustomModelData:1}"
+      "id": "minecraft:carrot_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 1
+      }
     },
     "title": "What's Updog?",
     "description": "nm how bout u",
@@ -22,7 +24,7 @@
             "entity": "this",
             "predicate": {
               "type_specific": {
-                "type": "player",
+                "type": "minecraft:player",
                 "advancements": {
                   "nincodedo:unique_items/initial_library": true,
                   "nincodedo:unique_items/master_sword/initial": true

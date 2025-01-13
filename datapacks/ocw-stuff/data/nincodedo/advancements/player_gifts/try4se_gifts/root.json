@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:player_head",
-      "nbt": "{SkullOwner:Try4se}"
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "Try4se"
+        }
+      }
     },
     "title": "Try4se",
     "description": "",

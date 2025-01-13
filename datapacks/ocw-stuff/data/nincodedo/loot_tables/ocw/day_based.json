@@ -22,8 +22,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 16,
-          "name": "minecraft:shield"
+          "name": "minecraft:shield",
+          "weight": 16
         }
       ],
       "conditions": [

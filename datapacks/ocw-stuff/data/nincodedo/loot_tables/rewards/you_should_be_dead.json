@@ -9,8 +9,12 @@
           "name": "minecraft:enchanted_book",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{NinReward:1}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "NinReward": 1
+                }
+              }
             },
             {
               "function": "minecraft:set_enchantments",
@@ -29,7 +33,8 @@
                 {
                   "text": "Reward from \"You should have died\" advancement."
                 }
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
               "function": "minecraft:reference",

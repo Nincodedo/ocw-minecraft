@@ -11,8 +11,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 4,
           "name": "minecraft:redstone",
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -27,8 +27,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 7,
           "name": "minecraft:bread",
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -43,8 +43,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:lapis_lazuli",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -59,8 +59,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:gold_ingot",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -75,8 +75,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:emerald",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -116,7 +116,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:ocw/day_based"
+          "value": "nincodedo:ocw/day_based"
         }
       ]
     }

@@ -1,14 +1,14 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bookshelf"
+      "id": "minecraft:bookshelf"
     },
     "title": "Forbidden Wing of The Library",
     "description": "Originally built by Zedar from OCW Minecraft 1.3, the library town. (2012) Expanded upon by Nin (2023)",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "nincodedo:goodgoals/structures/any",
   "criteria": {
@@ -19,7 +19,7 @@
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "nincodedo:library_hidden_wing"
+              "structures": "nincodedo:library_hidden_wing"
             }
           }
         ]

@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:player_head",
-      "nbt": "{SkullOwner:Nincodedo}"
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "Nincodedo"
+        }
+      }
     },
     "title": "Need some better fishins?",
     "description": "Don't fall into a cave while you're lookin",
@@ -20,7 +24,7 @@
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "nincodedo:cave_base_roof"
+              "structures": "nincodedo:cave_base_roof"
             }
           }
         ]

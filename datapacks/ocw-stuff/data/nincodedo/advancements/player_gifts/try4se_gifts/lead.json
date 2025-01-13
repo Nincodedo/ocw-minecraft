@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lead"
+      "id": "minecraft:lead"
     },
     "title": "Wrangle Them Up!",
     "description": "Lead those sheep into the farm",

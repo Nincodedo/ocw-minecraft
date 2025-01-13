@@ -1,14 +1,14 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:spruce_sapling"
+      "id": "minecraft:spruce_sapling"
     },
     "title": "Metal_Link's House",
     "description": "From OCW Minecraft 1.9 Beta, the Refugee Camp (2011)",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "nincodedo:goodgoals/structures/any",
   "criteria": {
@@ -19,7 +19,7 @@
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "nincodedo:metal_link_house"
+              "structures": "nincodedo:metal_link_house"
             }
           }
         ]

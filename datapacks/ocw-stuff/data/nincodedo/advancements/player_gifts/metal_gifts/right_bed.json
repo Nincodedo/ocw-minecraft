@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:green_bed"
+      "id": "minecraft:green_bed"
     },
     "title": "This bed is juuuuust riiiiiiiiight",
     "description": "Metal_Link appreciates your gift of sleepiness",

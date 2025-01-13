@@ -8,8 +8,12 @@
           "name": "minecraft:lava_bucket",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{NinReward:1}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "NinReward": 1
+                }
+              }
             },
             {
               "function": "minecraft:set_lore",
@@ -18,7 +22,8 @@
                 {
                   "text": "Reward from going to The Nether."
                 }
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
               "function": "minecraft:reference",

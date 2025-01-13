@@ -11,58 +11,58 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 20,
-          "name": "minecraft:saddle"
+          "name": "minecraft:saddle",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
-          "name": "minecraft:golden_apple"
+          "name": "minecraft:golden_apple",
+          "weight": 15
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:enchanted_golden_apple"
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:music_disc_otherside"
+          "name": "minecraft:music_disc_otherside",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
-          "name": "minecraft:music_disc_13"
+          "name": "minecraft:music_disc_13",
+          "weight": 15
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
-          "name": "minecraft:music_disc_cat"
+          "name": "minecraft:music_disc_cat",
+          "weight": 15
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
-          "name": "minecraft:name_tag"
+          "name": "minecraft:name_tag",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:golden_horse_armor"
+          "name": "minecraft:golden_horse_armor",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
-          "name": "minecraft:iron_horse_armor"
+          "name": "minecraft:iron_horse_armor",
+          "weight": 15
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:diamond_horse_armor"
+          "name": "minecraft:diamond_horse_armor",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:book",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:enchant_randomly"
@@ -81,8 +81,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:iron_ingot",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -97,8 +97,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:gold_ingot",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -113,13 +113,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
-          "name": "minecraft:bread"
+          "name": "minecraft:bread",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
           "name": "minecraft:wheat",
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -134,29 +134,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:bucket"
+          "name": "minecraft:bucket",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
           "name": "minecraft:redstone",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 4
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 15,
-          "name": "minecraft:coal",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -171,8 +155,24 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "name": "minecraft:coal",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:melon_seeds",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -187,8 +187,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:pumpkin_seeds",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -203,8 +203,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:beetroot_seeds",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -225,8 +225,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:bone",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -241,8 +241,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:gunpowder",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -257,8 +257,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:rotten_flesh",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -273,8 +273,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:string",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -297,11 +297,11 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:ocw_map"
+          "value": "nincodedo:ocw_map"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:ocw_books"
+          "value": "nincodedo:ocw_books"
         }
       ]
     }

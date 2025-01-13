@@ -39,7 +39,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:ocw_map"
+          "value": "nincodedo:ocw_map"
         }
       ]
     }

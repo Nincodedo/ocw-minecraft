@@ -14,7 +14,24 @@
     }
   },
   "result": {
-    "item": "minecraft:knowledge_book",
-    "count": 1
+    "id": "minecraft:player_head",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"text\":\"Kirby Plushie\"}",
+      "minecraft:profile": {
+        "id": [
+          769800376,
+          2073248831,
+          -1223666267,
+          548758263
+        ],
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjIyNDg0NWQ5ODhkNWJjMTliZGE1YzNhYmE4NjQwNTQxNjU1MjA0MDViZDZmMjY3ZWIzOWI3MjcwNDQzNTcxZSJ9fX0="
+          }
+        ]
+      }
+    }
   }
 }

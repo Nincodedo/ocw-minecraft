@@ -9,12 +9,15 @@
           "name": "minecraft:knowledge_book",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": "Advanced Blast Furnace Recipes"
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Recipes:[\"nincodedo:copper_block_from_blasting_raw_copper_block\", \"nincodedo:gold_block_from_blasting_raw_gold_block\", \"nincodedo:iron_block_from_blasting_raw_iron_block\"]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:recipes": [
+                  "nincodedo:copper_block_from_blasting_raw_copper_block",
+                  "nincodedo:gold_block_from_blasting_raw_gold_block",
+                  "nincodedo:iron_block_from_blasting_raw_iron_block"
+                ],
+                "minecraft:item_name": "{\"text\":\"Advanced Blast Furnace Recipes\"}"
+              }
             }
           ]
         }

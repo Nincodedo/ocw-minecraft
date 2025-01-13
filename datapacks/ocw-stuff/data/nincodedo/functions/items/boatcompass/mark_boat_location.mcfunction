@@ -1,40 +1,50 @@
-item modify entity @s[nbt={Inventory:[{Slot:0b,tag:{NinUnique:"BoatCompass"}}]}] hotbar.0 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:1b,tag:{NinUnique:"BoatCompass"}}]}] hotbar.1 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:2b,tag:{NinUnique:"BoatCompass"}}]}] hotbar.2 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:3b,tag:{NinUnique:"BoatCompass"}}]}] hotbar.3 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:4b,tag:{NinUnique:"BoatCompass"}}]}] hotbar.4 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:5b,tag:{NinUnique:"BoatCompass"}}]}] hotbar.5 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:6b,tag:{NinUnique:"BoatCompass"}}]}] hotbar.6 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:7b,tag:{NinUnique:"BoatCompass"}}]}] hotbar.7 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:8b,tag:{NinUnique:"BoatCompass"}}]}] hotbar.8 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:9b,tag:{NinUnique:"BoatCompass"}}]}] inventory.0 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:10b,tag:{NinUnique:"BoatCompass"}}]}] inventory.1 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:11b,tag:{NinUnique:"BoatCompass"}}]}] inventory.2 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:12b,tag:{NinUnique:"BoatCompass"}}]}] inventory.3 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:13b,tag:{NinUnique:"BoatCompass"}}]}] inventory.4 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:14b,tag:{NinUnique:"BoatCompass"}}]}] inventory.5 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:15b,tag:{NinUnique:"BoatCompass"}}]}] inventory.6 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:16b,tag:{NinUnique:"BoatCompass"}}]}] inventory.7 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:17b,tag:{NinUnique:"BoatCompass"}}]}] inventory.8 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:18b,tag:{NinUnique:"BoatCompass"}}]}] inventory.9 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:19b,tag:{NinUnique:"BoatCompass"}}]}] inventory.10 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:20b,tag:{NinUnique:"BoatCompass"}}]}] inventory.11 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:21b,tag:{NinUnique:"BoatCompass"}}]}] inventory.12 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:22b,tag:{NinUnique:"BoatCompass"}}]}] inventory.13 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:23b,tag:{NinUnique:"BoatCompass"}}]}] inventory.14 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:24b,tag:{NinUnique:"BoatCompass"}}]}] inventory.15 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:25b,tag:{NinUnique:"BoatCompass"}}]}] inventory.16 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:26b,tag:{NinUnique:"BoatCompass"}}]}] inventory.17 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:27b,tag:{NinUnique:"BoatCompass"}}]}] inventory.18 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:28b,tag:{NinUnique:"BoatCompass"}}]}] inventory.19 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:29b,tag:{NinUnique:"BoatCompass"}}]}] inventory.20 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:30b,tag:{NinUnique:"BoatCompass"}}]}] inventory.21 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:31b,tag:{NinUnique:"BoatCompass"}}]}] inventory.22 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:32b,tag:{NinUnique:"BoatCompass"}}]}] inventory.23 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:33b,tag:{NinUnique:"BoatCompass"}}]}] inventory.24 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:34b,tag:{NinUnique:"BoatCompass"}}]}] inventory.25 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:35b,tag:{NinUnique:"BoatCompass"}}]}] inventory.26 nincodedo:set_boat_compass
-item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{NinUnique:"BoatCompass"}}]}] weapon.offhand nincodedo:set_boat_compass
+execute store result storage nincodedo:storage boatcompass.x int 1 run data get entity @s Pos[0]
+execute store result storage nincodedo:storage boatcompass.y int 1 run data get entity @s Pos[1]
+execute store result storage nincodedo:storage boatcompass.z int 1 run data get entity @s Pos[2]
+
+execute if dimension minecraft:overworld run data modify storage nincodedo:storage boatcompass.dimension set value "minecraft:overworld"
+execute if dimension minecraft:the_nether run data modify storage nincodedo:storage boatcompass.dimension set value "minecraft:the_nether"
+execute if dimension minecraft:the_end run data modify storage nincodedo:storage boatcompass.dimension set value "minecraft:the_end"
+
+execute if items entity @s hotbar.0 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value "hotbar.0"
+execute if items entity @s hotbar.1 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "hotbar.1"
+execute if items entity @s hotbar.2 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "hotbar.2"
+execute if items entity @s hotbar.3 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "hotbar.3"
+execute if items entity @s hotbar.4 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "hotbar.4"
+execute if items entity @s hotbar.5 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "hotbar.5"
+execute if items entity @s hotbar.6 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "hotbar.6"
+execute if items entity @s hotbar.7 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "hotbar.7"
+execute if items entity @s hotbar.8 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "hotbar.8"
+execute if items entity @s inventory.0 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.0"
+execute if items entity @s inventory.1 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.1"
+execute if items entity @s inventory.2 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.2"
+execute if items entity @s inventory.3 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.3"
+execute if items entity @s inventory.4 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.4"
+execute if items entity @s inventory.5 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.5"
+execute if items entity @s inventory.6 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.6"
+execute if items entity @s inventory.7 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.7"
+execute if items entity @s inventory.8 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.8"
+execute if items entity @s inventory.9 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.9"
+execute if items entity @s inventory.10 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.10"
+execute if items entity @s inventory.11 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.11"
+execute if items entity @s inventory.12 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.12"
+execute if items entity @s inventory.13 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.13"
+execute if items entity @s inventory.14 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.14"
+execute if items entity @s inventory.15 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.15"
+execute if items entity @s inventory.16 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.16"
+execute if items entity @s inventory.17 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.17"
+execute if items entity @s inventory.18 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.18"
+execute if items entity @s inventory.19 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.19"
+execute if items entity @s inventory.20 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.20"
+execute if items entity @s inventory.21 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.21"
+execute if items entity @s inventory.22 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.22"
+execute if items entity @s inventory.23 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.23"
+execute if items entity @s inventory.24 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.24"
+execute if items entity @s inventory.25 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.25"
+execute if items entity @s inventory.26 minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "inventory.26"
+execute if items entity @s weapon.offhand minecraft:compass[minecraft:custom_data~{NinUnique:"BoatCompass"}] run data modify storage nincodedo:storage boatcompass.slot set value  "weapon.offhand"
+
+function nincodedo:items/boatcompass/set_pos with storage nincodedo:storage boatcompass
 
 advancement revoke @s only nincodedo:items/get_out_of_boat
 playsound minecraft:item.lodestone_compass.lock block @s

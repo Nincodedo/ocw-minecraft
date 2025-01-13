@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cactus"
+      "id": "minecraft:cactus"
     },
     "title": "Metal_Link Appreciates This",
     "description": "Gotta find that desert",

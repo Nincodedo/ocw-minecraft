@@ -7,13 +7,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:arms_up_pottery_sherd"
+          "name": "minecraft:arms_up_pottery_sherd",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:brewer_pottery_sherd"
+          "name": "minecraft:brewer_pottery_sherd",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -88,7 +88,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:ocw_map"
+          "value": "nincodedo:ocw_map"
         }
       ]
     }

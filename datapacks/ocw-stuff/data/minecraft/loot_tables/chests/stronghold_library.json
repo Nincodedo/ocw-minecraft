@@ -11,8 +11,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 20,
           "name": "minecraft:book",
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -27,8 +27,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
           "name": "minecraft:paper",
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -51,8 +51,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:book",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -71,11 +71,11 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:ocw_map"
+          "value": "nincodedo:ocw_map"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:ocw_books"
+          "value": "nincodedo:ocw_books"
         }
       ]
     },

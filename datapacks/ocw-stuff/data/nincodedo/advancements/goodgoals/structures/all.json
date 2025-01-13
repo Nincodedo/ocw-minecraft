@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:golden_boots"
+      "id": "minecraft:golden_boots"
     },
     "title": "ALL the structures!",
     "description": "Find all the ancient OCW structures",
@@ -19,7 +19,7 @@
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "nincodedo:cave_base_roof"
+              "structures": "nincodedo:cave_base_roof"
             }
           }
         ]
@@ -32,7 +32,7 @@
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "nincodedo:library_hidden_wing"
+              "structures": "nincodedo:library_hidden_wing"
             }
           }
         ]
@@ -45,7 +45,7 @@
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "nincodedo:metal_link_house"
+              "structures": "nincodedo:metal_link_house"
             }
           }
         ]
@@ -58,7 +58,7 @@
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "nincodedo:mountacemore"
+              "structures": "nincodedo:mountacemore"
             }
           }
         ]
@@ -71,7 +71,7 @@
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "nincodedo:small_library"
+              "structures": "nincodedo:small_library"
             }
           }
         ]
@@ -84,7 +84,7 @@
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "nincodedo:the_happened_tavern"
+              "structures": "nincodedo:the_happened_tavern"
             }
           }
         ]
@@ -97,7 +97,7 @@
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "nincodedo:sheep_farm"
+              "structures": "nincodedo:sheep_farm"
             }
           }
         ]
@@ -110,7 +110,7 @@
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "nincodedo:undeadcottage"
+              "structures": "nincodedo:undeadcottage"
             }
           }
         ]

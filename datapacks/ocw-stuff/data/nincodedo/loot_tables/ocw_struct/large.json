@@ -11,8 +11,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:diamond",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -27,8 +27,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:iron_ingot",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -43,8 +43,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 12,
           "name": "minecraft:gold_ingot",
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -59,8 +59,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:emerald",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -75,8 +75,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 12,
           "name": "minecraft:cooked_beef",
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -91,9 +91,9 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:book",
           "weight": 9,
           "quality": 10,
-          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -104,9 +104,9 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
           "weight": 3,
           "quality": 10,
-          "name": "minecraft:netherite_scrap",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -119,8 +119,8 @@
         },
         {
           "type": "minecraft:item",
-          "quality": 15,
-          "name": "minecraft:diamond_block"
+          "name": "minecraft:diamond_block",
+          "quality": 15
         }
       ]
     },
@@ -129,7 +129,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:ocw/day_based"
+          "value": "nincodedo:ocw/day_based"
         }
       ]
     }

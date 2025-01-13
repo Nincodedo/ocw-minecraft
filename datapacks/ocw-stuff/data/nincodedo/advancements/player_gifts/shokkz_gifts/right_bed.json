@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cyan_bed"
+      "id": "minecraft:cyan_bed"
     },
     "title": "This bed is juuuuust riiiiiiiiight",
     "description": "ShokkZ appreciates your gift of sleepiness",

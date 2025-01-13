@@ -1,19 +1,19 @@
-execute if score @s ping_color matches 1 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[0]
-execute if score @s ping_color matches 2 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[1]
-execute if score @s ping_color matches 3 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[2]
-execute if score @s ping_color matches 4 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[3]
-execute if score @s ping_color matches 5 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[4]
-execute if score @s ping_color matches 6 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[5]
-execute if score @s ping_color matches 7 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[6]
-execute if score @s ping_color matches 8 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[7]
-execute if score @s ping_color matches 9 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[8]
-execute if score @s ping_color matches 10 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[9]
-execute if score @s ping_color matches 11 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[10]
-execute if score @s ping_color matches 12 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[11]
-execute if score @s ping_color matches 13 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[12]
-execute if score @s ping_color matches 14 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[13]
-execute if score @s ping_color matches 15 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[14]
-execute if score @s ping_color matches 16 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[15]
+execute if score @s ping_color matches 1 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[1].name
+execute if score @s ping_color matches 2 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[2].name
+execute if score @s ping_color matches 3 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[3].name
+execute if score @s ping_color matches 4 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[4].name
+execute if score @s ping_color matches 5 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[5].name
+execute if score @s ping_color matches 6 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[6].name
+execute if score @s ping_color matches 7 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[7].name
+execute if score @s ping_color matches 8 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[8].name
+execute if score @s ping_color matches 9 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[9].name
+execute if score @s ping_color matches 10 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[10].name
+execute if score @s ping_color matches 11 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[11].name
+execute if score @s ping_color matches 12 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[12].name
+execute if score @s ping_color matches 13 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[13].name
+execute if score @s ping_color matches 14 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[14].name
+execute if score @s ping_color matches 15 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[15].name
+execute if score @s ping_color matches 16 run data modify storage nincodedo:storage current_color set from storage nincodedo:storage colors[16].name
 
 tellraw @s [{"text":"---Ping Color Config---\n"},{"text":"Click on a color to set your ping block's color.\n"},{"text":"Current ping color: "},{"nbt":"current_color","storage":"nincodedo:storage"},{"text":"\n"},{"text":"White","color":"white","clickEvent":{"action":"run_command","value":"/trigger ping_config set 1"}},{"text":" - "},{"text":"Light Gray","color":"#d3d3d3","clickEvent":{"action":"run_command","value":"/trigger ping_config set 2"}},{"text":" - "},{"text":"Gray","color":"#808080","clickEvent":{"action":"run_command","value":"/trigger ping_config set 3"}},{"text":" - "},{"text":"Black\n","color":"#161616","clickEvent":{"action":"run_command","value":"/trigger ping_config set 4"}},{"text":"Brown","color":"#a52a2a","clickEvent":{"action":"run_command","value":"/trigger ping_config set 5"}},{"text":" - "},{"text":"Red","color":"red","clickEvent":{"action":"run_command","value":"/trigger ping_config set 6"}},{"text":" - "},{"text":"Orange","color":"#ffa500","clickEvent":{"action":"run_command","value":"/trigger ping_config set 7"}},{"text":" - "},{"text":"Yellow\n","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger ping_config set 8"}},{"text":"Lime","color":"green","clickEvent":{"action":"run_command","value":"/trigger ping_config set 9"}},{"text":" - "},{"text":"Green","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger ping_config set 10"}},{"text":" - "},{"text":"Cyan","color":"#1E817F","clickEvent":{"action":"run_command","value":"/trigger ping_config set 11"}},{"text":" - "},{"text":"Light Blue\n","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger ping_config set 12"}},{"text":"Blue","color":"blue","clickEvent":{"action":"run_command","value":"/trigger ping_config set 13"}},{"text":" - "},{"text":"Purple","color":"dark_purple","clickEvent":{"action":"run_command","value":"/trigger ping_config set 14"}},{"text":" - "},{"text":"Magenta","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger ping_config set 15"}},{"text":" - "},{"text":"Pink","color":"#ffcccc"}]
 

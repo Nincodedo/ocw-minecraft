@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:crossbow"
+      "id": "minecraft:crossbow"
     },
     "title": "Don't need what you're selling",
     "description": "Send a pillager to the shadow realm",

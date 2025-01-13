@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:enchanted_book"
+      "id": "minecraft:enchanted_book"
     },
     "title": "Unique Items",
     "description": "Powerful rare items",
@@ -28,7 +28,11 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{NinUnique:\"OCWMap\"}"
+            "predicates": {
+              "minecraft:custom_data": {
+                "nincodedo:unique_item": "OCWMap"
+              }
+            }
           }
         ]
       }

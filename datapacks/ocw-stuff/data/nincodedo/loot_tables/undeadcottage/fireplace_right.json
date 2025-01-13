@@ -30,7 +30,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:uniqueitems/nightvision",
+          "value": "nincodedo:uniqueitems/nightvision",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -53,7 +53,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "nincodedo:uniqueitems/moondagger",
+          "value": "nincodedo:uniqueitems/moondagger",
           "conditions": [
             {
               "condition": "minecraft:value_check",

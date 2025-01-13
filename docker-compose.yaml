@@ -1,11 +1,9 @@
-version: "3.8"
-
 services:
   mc:
     build:
       context: .
       dockerfile: Dockerfile-mc
-    image: ghcr.io/nincodedo/rhc-ocw-mc:6.5.0
+    image: ghcr.io/nincodedo/rhc-ocw-mc:6.6.0
     env_file:
       - motd_override.env
       - docker.env
@@ -28,7 +26,7 @@ services:
       AUTOPAUSE_TIMEOUT_INIT: '120'
       TYPE: 'FABRIC'
       REMOVE_OLD_MODS: 'true'
-      VERSION: '1.20.4'
+      VERSION: '1.20.5'
       INITIAL_ENABLED_PACKS: 'bundle,trade_rebalance,update_1_21'
       RCON_CMDS_STARTUP: |-
         gamerule doDaylightCycle false
@@ -51,7 +49,7 @@ services:
       dev.nincodedo.gameservercommander.game: "Minecraft"
       dev.nincodedo.gameservercommander.group: "MC-RHC"
       dev.nincodedo.gameservercommander.name: "OCW Minecraft RHC"
-      dev.nincodedo.gameservercommander.description: "OCW Radical Hardcore 6.5.0 - Minecraft 1.20.4"
+      dev.nincodedo.gameservercommander.description: "OCW Radical Hardcore 6.6.0 - Minecraft 1.20.5"
       dev.nincodedo.gameservercommander.connection_info: "games.nincodedo.dev"
       com.centurylinklabs.watchtower.enable: false
   log-watcher:
@@ -60,7 +58,7 @@ services:
       dockerfile: Dockerfile-log-watcher
       labels:
         - "com.centurylinklabs.watchtower.enable=false"
-    image: ghcr.io/nincodedo/rhc-ocw:6.5.0
+    image: ghcr.io/nincodedo/rhc-ocw:6.6.0
     container_name: log-watcher
     env_file:
       - docker.env
@@ -102,8 +100,8 @@ services:
       AUTOPAUSE_TIMEOUT_INIT: '120'
       TYPE: 'FABRIC'
       REMOVE_OLD_MODS: 'true'
-      VERSION: '1.20.4'
-      INITIAL_ENABLED_PACKS: 'bundle,trade_rebalance,update_1_21'
+      VERSION: '1.21.3'
+      INITIAL_ENABLED_PACKS: 'trade_rebalance,winter_drop,minecart_improvements'
       RESOURCE_PACK: 'https://ocw-rhc.services.nincodedo.dev/v1/resource-pack?type=beta'
       RCON_CMDS_STARTUP: |-
         gamerule doDaylightCycle false

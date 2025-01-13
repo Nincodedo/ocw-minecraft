@@ -15,7 +15,16 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{SelectedItem:{tag:{NinUnique:\"Ascend\",NinPowered:1}}}",
+              "equipment": {
+                "mainhand": {
+                  "components": {
+                    "minecraft:custom_data": {
+                      "nincodedo:unique_item": "Ascend",
+                      "nincodedo:powered": 1
+                    }
+                  }
+                }
+              },
               "flags": {
                 "is_sneaking": true
               }

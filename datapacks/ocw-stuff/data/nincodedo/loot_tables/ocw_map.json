@@ -22,6 +22,7 @@
             {
               "function": "minecraft:set_name",
               "entity": "this",
+              "target": "item_name",
               "name": {
                 "text": "Ancient OCW Structure Map",
                 "italic": false
@@ -37,7 +38,8 @@
                 {
                   "text": "blue blob thing on the back of the map."
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ]
         },
@@ -59,6 +61,7 @@
             {
               "function": "minecraft:set_name",
               "entity": "this",
+              "target": "item_name",
               "name": {
                 "text": "Ancient OCW Structure Map",
                 "italic": false
@@ -71,7 +74,8 @@
                 {
                   "text": "The entire map is covered in sand."
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ]
         },
@@ -93,6 +97,7 @@
             {
               "function": "minecraft:set_name",
               "entity": "this",
+              "target": "item_name",
               "name": {
                 "text": "Ancient OCW Structure Map",
                 "italic": false
@@ -115,7 +120,8 @@
                   "color": "gold",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ]
         },
@@ -137,6 +143,7 @@
             {
               "function": "minecraft:set_name",
               "entity": "this",
+              "target": "item_name",
               "name": {
                 "text": "Ancient OCW Structure Map",
                 "italic": false
@@ -162,21 +169,24 @@
             {
               "function": "minecraft:set_name",
               "entity": "this",
+              "target": "item_name",
               "name": {
                 "text": "Ancient OCW Structure Map",
                 "italic": false
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:1s}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fire_protection": 1
+              }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "quality": 5,
           "name": "minecraft:map",
+          "quality": 5,
           "functions": [
             {
               "function": "minecraft:reference",
@@ -191,6 +201,7 @@
             },
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Ancient OCW Structure Map",
                 "color": "gold",
@@ -207,7 +218,8 @@
                 {
                   "text": "bunch of books drawn on it."
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ]
         }

@@ -1,5 +1,5 @@
 playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~
 tellraw @a [{"selector":"@s"},{"text":" completed all of Metal_Link's gift advancements!"}]
 advancement grant @s only nincodedo:player_gifts/metal_gifts/root
-give @s player_head{SkullOwner: {Id: [I; -2145763756, 845696088, -1763149853, 991948061], Name: "Metal_Link", Properties: {textures: [{Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4NjQ1MjQwMDYzNCwKICAicHJvZmlsZUlkIiA6ICI4MDFhM2U1NDMyNjg0YzU4OTZlODc3ZTMzYjFmZWQxZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXRhbF9MaW5rIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JkNWUxZjY1YTgyZjI4ZTQ5MWZkNjU4MDg2NjgwZGEwNjE1YmJmN2JkOTliZDQ4OWFlOTdkZTE4NWJlNzE0ZGUiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y5YTc2NTM3NjQ3OTg5ZjlhMGI2ZDAwMWUzMjBkYWM1OTFjMzU5ZTllNjFhMzFmNGNlMTFjODhmMjA3ZjBhZDQiCiAgICB9CiAgfQp9"}]}}} 1
+give @s minecraft:player_head[minecraft:profile={name:"Metal_Link"}]
 scoreboard players add @s ocwplayergiftcount 1

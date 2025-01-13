@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:redstone"
+      "id": "minecraft:redstone"
     },
     "title": "Magic or Advanced Tech?",
     "description": "More than 1 but less than a stack",

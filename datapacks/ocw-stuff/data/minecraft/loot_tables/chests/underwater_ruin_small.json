@@ -11,8 +11,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:coal",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -27,13 +27,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:stone_axe"
+          "name": "minecraft:stone_axe",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:rotten_flesh"
+          "name": "minecraft:rotten_flesh",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -41,8 +41,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:wheat",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -71,8 +71,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:fishing_rod",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:enchant_randomly"
@@ -81,17 +81,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:map",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "decoration": "red_x",
+              "decoration": "minecraft:red_x",
               "zoom": 1,
               "skip_existing_chunks": false
             },
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "translate": "filled_map.buried_treasure"
               }
@@ -100,8 +101,8 @@
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 2,
-          "name": "nincodedo:ocw_map"
+          "value": "nincodedo:ocw_map",
+          "weight": 2
         }
       ]
     }

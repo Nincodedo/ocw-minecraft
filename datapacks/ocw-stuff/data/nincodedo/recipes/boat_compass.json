@@ -14,7 +14,17 @@
     }
   },
   "result": {
-    "item": "minecraft:knowledge_book",
-    "count": 1
+    "id": "minecraft:compass",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"text\":\"Your Boat Compass\"}",
+      "minecraft:lore": [
+        "{\"text\": \"Keeps track of your boat's\",\"color\": \"gray\"}",
+        "{\"text\": \"location when you get out.\",\"color\": \"gray\"}"
+      ],
+      "minecraft:custom_data": {
+        "NinUnique": "BoatCompass"
+      }
+    }
   }
 }

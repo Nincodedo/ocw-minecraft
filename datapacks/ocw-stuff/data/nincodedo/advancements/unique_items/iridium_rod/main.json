@@ -1,8 +1,11 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:fishing_rod",
-      "nbt": "{CustomModelData:1010101,Enchantments:[{}]}"
+      "id": "minecraft:fishing_rod",
+      "components": {
+        "minecraft:custom_model_data": 1010101,
+        "minecraft:enchantment_glint_override": true
+      }
     },
     "title": "Nin's Iridium Fishing Rod",
     "description": "Imported from Pelican Town",
@@ -18,7 +21,11 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{NinUnique:\"NR\"}"
+            "predicates": {
+              "minecraft:custom_data": {
+                "nincodedo:unique_item": "NR"
+              }
+            }
           }
         ]
       }

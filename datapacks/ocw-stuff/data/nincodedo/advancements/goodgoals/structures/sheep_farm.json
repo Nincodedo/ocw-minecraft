@@ -1,14 +1,14 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:shears"
+      "id": "minecraft:shears"
     },
     "title": "50,000 sheep used to live here, now it's a ghost town",
-    "description": "The sheep farm from last season's Hardcore series during the successful attempt (2021)",
+    "description": "The sheep farm from season 1 of the Hardcore series during the successful attempt (2021)",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "nincodedo:goodgoals/structures/any",
   "criteria": {
@@ -19,7 +19,7 @@
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "nincodedo:sheep_farm"
+              "structures": "nincodedo:sheep_farm"
             }
           }
         ]

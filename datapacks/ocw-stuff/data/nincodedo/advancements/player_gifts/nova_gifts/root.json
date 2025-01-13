@@ -1,8 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:player_head",
-      "nbt": "{SkullOwner:Nova_Stardust}"
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "Nova_Stardust"
+        }
+      }
     },
     "title": "Nova_Stardust",
     "description": "",

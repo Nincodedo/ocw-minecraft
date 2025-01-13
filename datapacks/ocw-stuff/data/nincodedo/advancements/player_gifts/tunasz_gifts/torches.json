@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:torch"
+      "id": "minecraft:torch"
     },
     "title": "Let's Light Things Up",
     "description": "A whole stack of torches!",
